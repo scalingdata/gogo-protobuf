@@ -36,7 +36,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gogo/protobuf/proto"
+	"github.com/scalingdata/gogo-protobuf/proto"
 )
 
 const (

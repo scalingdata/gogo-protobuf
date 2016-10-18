@@ -16,16 +16,16 @@
 */
 package proto2_maps
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/scalingdata/gogo-protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/scalingdata/gogo-protobuf/gogoproto"
 
-import github_com_gogo_protobuf_test_custom "github.com/gogo/protobuf/test/custom"
-import github_com_gogo_protobuf_test "github.com/gogo/protobuf/test"
+import github_com_gogo_protobuf_test_custom "github.com/scalingdata/gogo-protobuf/test/custom"
+import github_com_gogo_protobuf_test "github.com/scalingdata/gogo-protobuf/test"
 
-import github_com_gogo_protobuf_protoc_gen_gogo_descriptor "github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
-import github_com_gogo_protobuf_proto "github.com/gogo/protobuf/proto"
+import github_com_gogo_protobuf_protoc_gen_gogo_descriptor "github.com/scalingdata/gogo-protobuf/protoc-gen-gogo/descriptor"
+import github_com_gogo_protobuf_proto "github.com/scalingdata/gogo-protobuf/proto"
 import compress_gzip "compress/gzip"
 import bytes "bytes"
 import io_ioutil "io/ioutil"
@@ -35,7 +35,7 @@ import strconv "strconv"
 import strings "strings"
 import sort "sort"
 import reflect "reflect"
-import github_com_gogo_protobuf_sortkeys "github.com/gogo/protobuf/sortkeys"
+import github_com_gogo_protobuf_sortkeys "github.com/scalingdata/gogo-protobuf/sortkeys"
 
 import unsafe "unsafe"
 
@@ -99,10 +99,10 @@ func (*FloatingPoint) ProtoMessage()               {}
 func (*FloatingPoint) Descriptor() ([]byte, []int) { return fileDescriptorMapsproto2, []int{0} }
 
 type CustomMap struct {
-	Nullable128S     map[string]*github_com_gogo_protobuf_test_custom.Uint128 `protobuf:"bytes,1,rep,name=Nullable128s,json=nullable128s,customtype=github.com/gogo/protobuf/test/custom.Uint128" json:"Nullable128s,omitempty" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
-	Uint128S         map[string]github_com_gogo_protobuf_test_custom.Uint128  `protobuf:"bytes,2,rep,name=Uint128s,json=uint128s,customtype=github.com/gogo/protobuf/test/custom.Uint128" json:"Uint128s" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
-	NullableIds      map[string]*github_com_gogo_protobuf_test.Uuid           `protobuf:"bytes,3,rep,name=NullableIds,json=nullableIds,customtype=github.com/gogo/protobuf/test.Uuid" json:"NullableIds,omitempty" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
-	Ids              map[string]github_com_gogo_protobuf_test.Uuid            `protobuf:"bytes,4,rep,name=Ids,json=ids,customtype=github.com/gogo/protobuf/test.Uuid" json:"Ids" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
+	Nullable128S     map[string]*github_com_gogo_protobuf_test_custom.Uint128 `protobuf:"bytes,1,rep,name=Nullable128s,json=nullable128s,customtype=github.com/scalingdata/gogo-protobuf/test/custom.Uint128" json:"Nullable128s,omitempty" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
+	Uint128S         map[string]github_com_gogo_protobuf_test_custom.Uint128  `protobuf:"bytes,2,rep,name=Uint128s,json=uint128s,customtype=github.com/scalingdata/gogo-protobuf/test/custom.Uint128" json:"Uint128s" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
+	NullableIds      map[string]*github_com_gogo_protobuf_test.Uuid           `protobuf:"bytes,3,rep,name=NullableIds,json=nullableIds,customtype=github.com/scalingdata/gogo-protobuf/test.Uuid" json:"NullableIds,omitempty" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
+	Ids              map[string]github_com_gogo_protobuf_test.Uuid            `protobuf:"bytes,4,rep,name=Ids,json=ids,customtype=github.com/scalingdata/gogo-protobuf/test.Uuid" json:"Ids" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
 	XXX_unrecognized []byte                                                   `json:"-"`
 }
 

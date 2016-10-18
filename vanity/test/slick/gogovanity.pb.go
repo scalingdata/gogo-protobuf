@@ -13,13 +13,13 @@
 */
 package vanity
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/scalingdata/gogo-protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/scalingdata/gogo-protobuf/gogoproto"
 
 import strings "strings"
-import github_com_gogo_protobuf_proto "github.com/gogo/protobuf/proto"
+import github_com_gogo_protobuf_proto "github.com/scalingdata/gogo-protobuf/proto"
 import sort "sort"
 import strconv "strconv"
 import reflect "reflect"

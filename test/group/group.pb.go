@@ -14,13 +14,13 @@ It has these top-level messages:
 */
 package group
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/scalingdata/gogo-protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/scalingdata/gogo-protobuf/gogoproto"
 
-import github_com_gogo_protobuf_protoc_gen_gogo_descriptor "github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
-import github_com_gogo_protobuf_proto "github.com/gogo/protobuf/proto"
+import github_com_gogo_protobuf_protoc_gen_gogo_descriptor "github.com/scalingdata/gogo-protobuf/protoc-gen-gogo/descriptor"
+import github_com_gogo_protobuf_proto "github.com/scalingdata/gogo-protobuf/proto"
 import compress_gzip "compress/gzip"
 import bytes "bytes"
 import io_ioutil "io/ioutil"

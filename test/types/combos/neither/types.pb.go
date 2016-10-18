@@ -21,16 +21,16 @@ It has these top-level messages:
 */
 package types
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/scalingdata/gogo-protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
-import google_protobuf1 "github.com/gogo/protobuf/types"
-import google_protobuf2 "github.com/gogo/protobuf/types"
-import google_protobuf3 "github.com/gogo/protobuf/types"
+import _ "github.com/scalingdata/gogo-protobuf/gogoproto"
+import google_protobuf1 "github.com/scalingdata/gogo-protobuf/types"
+import google_protobuf2 "github.com/scalingdata/gogo-protobuf/types"
+import google_protobuf3 "github.com/scalingdata/gogo-protobuf/types"
 
 import time "time"
-import github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
+import github_com_gogo_protobuf_types "github.com/scalingdata/gogo-protobuf/types"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

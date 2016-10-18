@@ -23,7 +23,7 @@ It has these top-level messages:
 */
 package jsonpb
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/scalingdata/gogo-protobuf/proto"
 import fmt "fmt"
 import math "math"
 

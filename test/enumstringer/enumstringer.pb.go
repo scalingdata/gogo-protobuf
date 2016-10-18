@@ -16,10 +16,10 @@ It has these top-level messages:
 */
 package enumstringer
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/scalingdata/gogo-protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/scalingdata/gogo-protobuf/gogoproto"
 
 import bytes "bytes"
 

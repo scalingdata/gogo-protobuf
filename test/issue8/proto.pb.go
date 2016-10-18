@@ -13,15 +13,15 @@ It has these top-level messages:
 */
 package proto
 
-import proto1 "github.com/gogo/protobuf/proto"
+import proto1 "github.com/scalingdata/gogo-protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/scalingdata/gogo-protobuf/gogoproto"
 
 import bytes "bytes"
 
 import io "io"
-import github_com_gogo_protobuf_proto "github.com/gogo/protobuf/proto"
+import github_com_gogo_protobuf_proto "github.com/scalingdata/gogo-protobuf/proto"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto1.Marshal

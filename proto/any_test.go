@@ -35,11 +35,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gogo/protobuf/proto"
+	"github.com/scalingdata/gogo-protobuf/proto"
 
-	pb "github.com/gogo/protobuf/proto/proto3_proto"
-	testpb "github.com/gogo/protobuf/proto/testdata"
-	"github.com/gogo/protobuf/types"
+	pb "github.com/scalingdata/gogo-protobuf/proto/proto3_proto"
+	testpb "github.com/scalingdata/gogo-protobuf/proto/testdata"
+	"github.com/scalingdata/gogo-protobuf/types"
 )
 
 var (

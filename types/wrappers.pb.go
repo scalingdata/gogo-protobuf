@@ -21,14 +21,14 @@ It has these top-level messages:
 */
 package types
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/scalingdata/gogo-protobuf/proto"
 import fmt "fmt"
 import math "math"
 
 import bytes "bytes"
 
 import strings "strings"
-import github_com_gogo_protobuf_proto "github.com/gogo/protobuf/proto"
+import github_com_gogo_protobuf_proto "github.com/scalingdata/gogo-protobuf/proto"
 import sort "sort"
 import strconv "strconv"
 import reflect "reflect"

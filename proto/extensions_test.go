@@ -38,8 +38,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gogo/protobuf/proto"
-	pb "github.com/gogo/protobuf/proto/testdata"
+	"github.com/scalingdata/gogo-protobuf/proto"
+	pb "github.com/scalingdata/gogo-protobuf/proto/testdata"
 )
 
 func TestGetExtensionsWithMissingExtensions(t *testing.T) {
